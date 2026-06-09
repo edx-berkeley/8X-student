@@ -1,0 +1,148 @@
+version: 1
+project:
+  title: DATA 88B Materials
+  description: Public lecture and lab notebooks for DATA 88B Economic Analysis for
+    Business Decisions, UC Berkeley edX xSeries
+  authors:
+  - name: DATA 88B Course Staff
+  github: edx-berkeley/8X-student
+  license: CC-BY-NC-4.0
+  jupyter:
+    binder:
+      repo: edx-berkeley/8X-student
+      ref: main
+      url: https://mybinder.org
+    kernelName: python3
+  exclude:
+  - README.md
+  - LICENSE.md
+  toc:
+  - file: intro.md
+  - title: Part 1 — Data Exploration
+    children:
+    - title: Lectures
+      children:
+      - title: Lecture 01
+        file: lec/1/lec01.ipynb
+      - title: Lecture 03
+        file: lec/1/lec03.ipynb
+      - title: Lecture 04
+        file: lec/1/lec04.ipynb
+      - title: Lecture 05
+        file: lec/1/lec05.ipynb
+      - title: Lecture 06
+        file: lec/1/lec06.ipynb
+      - title: Lecture 07
+        file: lec/1/lec07.ipynb
+      - title: Lecture 08
+        file: lec/1/lec08.ipynb
+      - title: Lecture 09
+        file: lec/1/lec09.ipynb
+      - title: Lecture 10
+        file: lec/1/lec10.ipynb
+      - title: Lecture 11
+        file: lec/1/lec11.ipynb
+      - title: Lecture 12
+        file: lec/1/lec12.ipynb
+      - title: Lecture 13
+        file: lec/1/lec13.ipynb
+    - title: Labs
+      children:
+      - title: Lab 00
+        file: lab/1/lab00/lab00.ipynb
+      - title: Lab 01
+        file: lab/1/lab01/lab01.ipynb
+      - title: Lab 02
+        file: lab/1/lab02/lab02.ipynb
+      - title: Lab 03
+        file: lab/1/lab03/lab03.ipynb
+      - title: Lab 04
+        file: lab/1/lab04/lab04.ipynb
+      - title: Lab 05
+        file: lab/1/lab05/lab05.ipynb
+      - title: Lab 06
+        file: lab/1/lab06/lab06.ipynb
+  - title: Part 2 — Inferential Statistics
+    children:
+    - title: Lectures
+      children:
+      - title: Lecture 02
+        file: lec/2/lec02.ipynb
+      - title: Lecture 03
+        file: lec/2/lec03.ipynb
+      - title: Lecture 04
+        file: lec/2/lec04.ipynb
+      - title: Lecture 05
+        file: lec/2/lec05.ipynb
+      - title: Lecture 06
+        file: lec/2/lec06.ipynb
+      - title: Lecture 07
+        file: lec/2/lec07.ipynb
+      - title: Lecture 08
+        file: lec/2/lec08.ipynb
+      - title: Lecture 09
+        file: lec/2/lec09.ipynb
+      - title: Lecture 10
+        file: lec/2/lec10.ipynb
+      - title: Lecture 11
+        file: lec/2/lec11.ipynb
+    - title: Labs
+      children:
+      - title: Lab 07
+        file: lab/2/lab07/lab07.ipynb
+      - title: Lab 08
+        file: lab/2/lab08/lab08.ipynb
+      - title: Lab 09
+        file: lab/2/lab09/lab09.ipynb
+      - title: Lab 10
+        file: lab/2/lab10/lab10.ipynb
+      - title: Lab 11
+        file: lab/2/lab11/lab11.ipynb
+      - title: Lab 12
+        file: lab/2/lab12/lab12.ipynb
+      - title: Lab 13
+        file: lab/2/lab13/lab13.ipynb
+  - title: Part 3 — Linear Regression
+    children:
+    - title: Lectures
+      children:
+      - title: Lecture 01
+        file: lec/3/lec01.ipynb
+      - title: Lecture 02
+        file: lec/3/lec02.ipynb
+      - title: Lecture 03
+        file: lec/3/lec03.ipynb
+      - title: Lecture 04
+        file: lec/3/lec04.ipynb
+      - title: Lecture 05
+        file: lec/3/lec05.ipynb
+      - title: Lecture 06
+        file: lec/3/lec06.ipynb
+      - title: Lecture 07
+        file: lec/3/lec07.ipynb
+      - title: Lecture 08
+        file: lec/3/lec08.ipynb
+      - title: Lecture 09
+        file: lec/3/lec09.ipynb
+      - title: Lecture 10
+        file: lec/3/lec10.ipynb
+      - title: Lecture 11
+        file: lec/3/lec11.ipynb
+    - title: Labs
+      children:
+      - title: Lab 14
+        file: lab/3/lab14/lab14.ipynb
+      - title: Lab 15
+        file: lab/3/lab15/lab15.ipynb
+      - title: Lab 16
+        file: lab/3/lab16/lab16.ipynb
+      - title: Lab 17
+        file: lab/3/lab17/lab17.ipynb
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo_text: DATA 88B Materials
+    hide_authors: true
+    hide_myst_branding: true
+    hide_outline: false
