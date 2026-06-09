@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sync myst.yml TOC with DATA 88B notebooks on disk.
+Sync myst.yml TOC with Data 8X notebooks on disk.
 Finds lec/N/lecNN.ipynb and lab/N/labNN/labNN.ipynb for N in {1,2,3},
 builds the table of contents in order, and updates myst.yml.
 Run from repository root. Exits 0 if no change, 2 on error.
@@ -22,9 +22,9 @@ EXIT_SUCCESS = 0
 EXIT_ERROR = 2
 
 PART_TITLES = {
-    "1": "Part 1 — Data Exploration",
-    "2": "Part 2 — Inferential Statistics",
-    "3": "Part 3 — Linear Regression",
+    "1": "Part 1 - Computational Thinking with Python",
+    "2": "Part 2 - Inferential Thinking through Simulations",
+    "3": "Part 3 - Machine Learning and Predictions",
 }
 
 SKIP_NOTEBOOKS = {"example.ipynb", "Example.ipynb"}

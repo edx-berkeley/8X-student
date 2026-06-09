@@ -1,10 +1,9 @@
 version: 1
 project:
-  title: DATA 88B Materials
-  description: Public lecture and lab notebooks for DATA 88B Economic Analysis for
-    Business Decisions, UC Berkeley edX xSeries
+  title: 8x Student Preview
+  description: Public lecture and lab notebooks for 8x, The foundation of Data Science, part of UC Berkeley edX xSeries
   authors:
-  - name: DATA 88B Course Staff
+  - name: 8x Student Preview
   github: edx-berkeley/8X-student
   license: CC-BY-NC-4.0
   jupyter:
@@ -18,7 +17,7 @@ project:
   - LICENSE.md
   toc:
   - file: intro.md
-  - title: Part 1 — Data Exploration
+  - title: Part 1 - Computational Thinking with Python
     children:
     - title: Lectures
       children:
@@ -62,7 +61,7 @@ project:
         file: lab/1/lab05/lab05.ipynb
       - title: Lab 06
         file: lab/1/lab06/lab06.ipynb
-  - title: Part 2 — Inferential Statistics
+  - title: Part 2 - Inferential Thinking through Simulations
     children:
     - title: Lectures
       children:
@@ -102,7 +101,7 @@ project:
         file: lab/2/lab12/lab12.ipynb
       - title: Lab 13
         file: lab/2/lab13/lab13.ipynb
-  - title: Part 3 — Linear Regression
+  - title: Part 3 - Machine Learning and Predictions
     children:
     - title: Lectures
       children:
@@ -142,7 +141,7 @@ site:
   template: book-theme
   options:
     favicon: favicon.ico
-    logo_text: DATA 88B Materials
+    logo_text: 8x Student Preview
     hide_authors: true
     hide_myst_branding: true
     hide_outline: false
